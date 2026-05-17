@@ -37,6 +37,8 @@ Elon Musk is a co-founder of OpenAI who departed in 2018 over disagreements abou
 
 - [[wiki/sources/elon-musk-ai-space]] — primary; space compute, TeraFab, energy bottleneck, hardware-first strategy, optimism philosophy
 - [[wiki/sources/openai-founders-core-memory]] — referenced as litigation opponent; breaking point was absolute control demand
+- [[wiki/sources/elon-musk-lex-fridman-400]] — geopolitical philosophy; AGI as civilisational risk comparable to nuclear war; Thucydides Trap framing for US-China; ignorance as the real enemy
+- [[wiki/sources/gavin-baker-gpu-economics]] — Jensen Huang confirms Musk builds data centres faster than anyone; xAI will likely have first Blackwell-trained model
 
 ## Connections
 

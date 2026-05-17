@@ -47,9 +47,21 @@ Because implementation is now cheap (AI does it), labs can run more experiments 
 - More research compute can be applied iteratively
 - External release cadence goes from 6 months → 2 months → potentially faster
 
+## The Two New Post-Training Scaling Laws (Gavin Baker)
+
+From [[wiki/sources/gavin-baker-gpu-economics]], Baker identifies two additional scaling laws that operate independently of pre-training:
+
+1. **Reinforcement learning with verified rewards (RLVR)**: Any task where you can verify the correct answer can be trained via RL. This is distinct from RLHF (human preference) — it requires no human labellers, just a verifier.
+2. **Test-time compute**: Allowing the model to "think longer" at inference time improves output quality. This is an inference-time scaling law, not a training-time one.
+
+ARC-AGI benchmark moved from 8% to 95% in three months when reasoning models launched (Oct 2024), on the back of these two laws — not new hardware. Gemini 3 then confirmed the pre-training scaling law is still intact on top of these two.
+
+All three scaling laws are **multiplicative** — better base models + better post-training + more inference compute compound together.
+
 ## Key Sources
 
 - [[wiki/sources/dylan-patel-token-supply-demand]] — Dylan's explicit discussion of Mythos as scaling law proof; release cadence compression
+- [[wiki/sources/gavin-baker-gpu-economics]] — two new post-training scaling laws; Gemini 3 confirmation; ARC-AGI evidence
 
 ## Related Concepts
 

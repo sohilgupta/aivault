@@ -300,3 +300,48 @@ Reason: Public software investing. Partially useful (SaaS disruption thesis) but
 ## [2026-04-25] skipped | Gavin Baker — GPUs, TPUs & Economics of AI
 
 Reason: Sampled content drifted into investor origin story; AI economics claims appear covered by Dylan Patel. Can revisit.
+
+---
+
+## [2026-05-17] ingest | Batch ingest: 5 podcast sources (Palmer Luckey, Marc Andreessen World Malleable, Gavin Baker GPU Economics, Elon Musk Lex Fridman 400, Gokul Rajaram Revenue Engines)
+
+Sources ingested:
+- `raw/podcasts/Joe Rogan Experience 2394 - Palmer Luckey.md` → `wiki/sources/palmer-luckey-jre-2394.md`
+- `raw/podcasts/Marc Andreessen The World Is More Malleable Than You Think.md` → `wiki/sources/marc-andreessen-world-malleable.md`
+- `raw/podcasts/GPUs, TPUs, & The Economics of AI Explained  Gavin Baker Interview.md` → `wiki/sources/gavin-baker-gpu-economics.md`
+- `raw/podcasts/Elon Musk War, AI, Aliens, Politics, Physics, Video Games, and Humanity  Lex Fridman Podcast 400.md` → `wiki/sources/elon-musk-lex-fridman-400.md`
+- `raw/podcasts/He Built The Revenue Engines for Google, Facebook & Square.md` → `wiki/sources/gokul-rajaram-ai-product-development.md`
+
+Pages created (11 total):
+- `wiki/sources/palmer-luckey-jre-2394.md`
+- `wiki/sources/marc-andreessen-world-malleable.md`
+- `wiki/sources/gavin-baker-gpu-economics.md`
+- `wiki/sources/elon-musk-lex-fridman-400.md`
+- `wiki/sources/gokul-rajaram-ai-product-development.md`
+- `wiki/entities/palmer-luckey.md`
+- `wiki/entities/gavin-baker.md`
+- `wiki/entities/gokul-rajaram.md`
+- `wiki/concepts/non-deterministic-software.md`
+
+Pages updated:
+- `wiki/entities/elon-musk.md` (added Lex Fridman 400 and Gavin Baker appearances)
+- `wiki/entities/marc-andreessen.md` (replaced placeholder marc-andreessen-malleable-world reference with actual ingested source)
+- `wiki/concepts/scaling-laws.md` (added two new post-training scaling laws from Gavin Baker)
+- `wiki/index.md` (added 5 sources, 3 entities, 1 concept rows)
+- `wiki/log.md` (this entry)
+
+Skipped (7 files):
+- JRE 1169 Elon Musk — empty transcript
+- JRE 2054 Elon Musk — Cybertruck/manufacturing, no AI content
+- JRE 2281 Elon Musk — DOGE/politics, superficial Grok mention
+- JRE 2404 Elon Musk — no AI content
+- Nuclear Fuel Problem (Scott Nolan/General Matter) — nuclear energy only, insufficient AI content
+- Why Now is the Best Time to Buy Public Software Companies — investment methodology, AI content covered by existing Dylan Patel sources
+- 99% Rich People Do This (Karan Bhagat) — instructed skip
+
+Key findings:
+- Gavin Baker provides the most precise investor-grade account of the reasoning-model breakthrough: ARC-AGI 8%→95% in 3 months, reasoning "saved AI" through the Blackwell gap
+- Gokul Rajaram introduces "non-deterministic software" as a new structural concept — the most useful new framework from this batch
+- Palmer Luckey's defense AI perspective shows AI already operationally deployed in autonomous weapons — not future speculation
+- Marc Andreessen's "World Malleable" fills in the historical/philosophical foundation for the founder+AI formula already documented in prior sources
+- Elon Lex 400 primarily valuable for AGI-as-civilisational-risk framing, reinforcing Leopold Aschenbrenner's arguments from a different angle

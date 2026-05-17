@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-04-25 | Pages: 102
+Last updated: 2026-05-17 | Pages: 113
 
 > This file is maintained by the LLM. Do not edit manually.
 > The LLM reads this first when answering queries to locate relevant pages.
@@ -37,6 +37,11 @@ Last updated: 2026-04-25 | Pages: 102
 | [[wiki/sources/lex-fridman-state-of-ai-2026]] | Lex Fridman #490 with Sebastian Raschka + Nathan Lambert: AI slop, authenticity premium, consciousness, three coding modes | 2026-04-25 |
 | [[wiki/sources/jensen-huang-lex-fridman-494]] | Lex Fridman #494 — Jensen Huang: biology unlocked in 5 years, succession philosophy, consciousness upload vision, humanity optimism | 2026-04-25 |
 | [[wiki/sources/glp1-health-revolution]] | GLP-1s and the trillion-dollar health revolution: cardiovascular, addiction, obesity; three friction barriers; connects to biological-revolution | 2026-04-25 |
+| [[wiki/sources/palmer-luckey-jre-2394]] | JRE #2394 — Palmer Luckey on Oculus origin, Anduril defense AI, non-humanoid combat robots, VR+AI training, multi-sensor UAP verification | 2026-05-17 |
+| [[wiki/sources/marc-andreessen-world-malleable]] | Founders Podcast — Marc Andreessen on founder vs manager thesis, bourgeois capitalism vs managerialism, zero introspection, Elon Musk as Henry Ford | 2026-05-17 |
+| [[wiki/sources/gavin-baker-gpu-economics]] | Invest Like The Best — Gavin Baker on Blackwell transition, reasoning models saving AI, TPU economics, two new post-training scaling laws, ROI on AI | 2026-05-17 |
+| [[wiki/sources/elon-musk-lex-fridman-400]] | Lex Fridman #400 — Elon Musk on war philosophy, AGI as civilisational risk, US-China Thucydides Trap, nuclear risk, ignorance as the real enemy | 2026-05-17 |
+| [[wiki/sources/gokul-rajaram-ai-product-development]] | Invest Like The Best — Gokul Rajaram on non-deterministic software, judgment as future-proof skill, AI impact on PMs/designers, SaaS durability taxonomy | 2026-05-17 |
 
 ---
 
@@ -63,7 +68,10 @@ Last updated: 2026-04-25 | Pages: 102
 | [[wiki/entities/elon-musk]] | Person | CEO xAI; original OpenAI co-founder; TeraFab; space compute; hardware-first AI strategy |
 | [[wiki/entities/satya-nadella]] | Person | CEO Microsoft; trust-as-moat thesis; AI sovereignty; OpenAI partner; 2027 enterprise inflection |
 | [[wiki/entities/leopold-aschenbrenner]] | Person | Former OpenAI safety; author Situational Awareness; 2027 AGI thesis; intelligence explosion; US-China race |
-| [[wiki/entities/marc-andreessen]] | Person | Co-founder a16z; AI diffusion resistance thesis; founder+AI formula; agent bank accounts; AI+crypto grand unification |
+| [[wiki/entities/marc-andreessen]] | Person | Co-founder a16z; AI diffusion resistance thesis; founder+AI formula; agent bank accounts; AI+crypto grand unification; managerialism collapse thesis |
+| [[wiki/entities/palmer-luckey]] | Person | Founder of Oculus and Anduril Industries; defense AI; non-humanoid autonomous weapons; VR+AI combat training |
+| [[wiki/entities/gavin-baker]] | Person | Technology investor; encyclopedic AI infrastructure knowledge; reasoning models saved AI; lowest-cost token producer thesis |
+| [[wiki/entities/gokul-rajaram]] | Person | Product executive (Google, Facebook, Square, DoorDash); non-deterministic software thesis; judgment as future-proof skill |
 
 ---
 
@@ -87,6 +95,7 @@ Last updated: 2026-04-25 | Pages: 102
 | [[wiki/concepts/post-scaling-research]] | Ilya's thesis: after the internet data wall, algorithmic insight (not compute) becomes the differentiating skill; age of research |
 | [[wiki/concepts/ai-sovereignty]] | Geopolitical dimension of AI deployment: trust, data residency, concentration risk, open source as structural check |
 | [[wiki/concepts/agi-timeline]] | Cross-source comparison of AGI timeline predictions: 2027 (Leopold), 1-2yr (Dario), not far (Sam); intelligence explosion implications |
+| [[wiki/concepts/non-deterministic-software]] | AI-powered software produces variable outputs for identical inputs; shifts quality ownership from spec-writing to evals; judgment is the remaining human skill |
 
 ---
 

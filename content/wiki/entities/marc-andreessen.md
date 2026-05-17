@@ -36,7 +36,7 @@ Marc Andreessen is one of the most influential technology investors and thinkers
 
 - [[wiki/sources/marc-andreessen-real-ai-boom]] — AI diffusion resistance, cartel thesis, founder-AI formula
 - [[wiki/sources/marc-andreessen-openclaw-agents]] — OpenClaw specifically, AI+crypto grand unification, browser death, agent financial autonomy
-- [[wiki/sources/marc-andreessen-malleable-world]] (if ingested) — Elon method, Starlink
+- [[wiki/sources/marc-andreessen-world-malleable]] — historical framework: bourgeois capitalism vs managerialism; zero introspection mindset; founders vs managers; Elon Musk as Henry Ford archetype
 
 ## Connections
 
