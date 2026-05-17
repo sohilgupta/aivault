@@ -1,22 +1,40 @@
 .darkmode {
   cursor: pointer;
-  padding: 0;
   position: relative;
-  background: none;
-  border: none;
-  width: 20px;
-  height: 32px;
+  background: transparent;
+  border: 1px solid var(--lightgray);
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem 0.3rem 0.55rem;
   margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   text-align: inherit;
   flex-shrink: 0;
+  height: 32px;
+  color: var(--darkgray);
+  font-family: var(--bodyFont);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background-color: var(--highlight);
+    border-color: var(--tertiary);
+    color: var(--tertiary);
+  }
 
   & svg {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: calc(50% - 10px);
-    fill: var(--darkgray);
-    transition: opacity 0.1s ease;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    stroke: currentColor;
+  }
+
+  & .darkmode-label {
+    line-height: 1;
+    white-space: nowrap;
   }
 }
 
@@ -28,20 +46,26 @@
   color-scheme: light;
 }
 
-:root[saved-theme="dark"] .darkmode {
-  & > .dayIcon {
-    display: none;
+// Light mode (default): show moon icon + "Dark" label (= clicking switches to Dark)
+:root .darkmode {
+  & > .dayIcon,
+  & > .dayLabel {
+    display: inline-flex;
   }
-  & > .nightIcon {
-    display: inline;
+  & > .nightIcon,
+  & > .nightLabel {
+    display: none;
   }
 }
 
-:root .darkmode {
-  & > .dayIcon {
-    display: inline;
-  }
-  & > .nightIcon {
+// Dark mode active: show sun icon + "Light" label (= clicking switches to Light)
+:root[saved-theme="dark"] .darkmode {
+  & > .dayIcon,
+  & > .dayLabel {
     display: none;
+  }
+  & > .nightIcon,
+  & > .nightLabel {
+    display: inline-flex;
   }
 }

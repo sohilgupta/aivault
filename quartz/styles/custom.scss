@@ -3,60 +3,76 @@
 // ─── Typography refinements ───────────────────────────────────────────────────
 
 body {
-  font-size: 15px;
-  line-height: 1.7;
-  letter-spacing: 0.01em;
+  font-size: 15.5px;
+  line-height: 1.72;
+  letter-spacing: 0.005em;
+  font-feature-settings: "ss01", "cv11", "kern";
 }
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: -0.02em;
+  letter-spacing: -0.022em;
   font-weight: 600;
+  line-height: 1.3;
+  color: var(--dark) !important;
 }
 
-h1 { font-size: 1.75rem; }
-h2 { font-size: 1.3rem; }
-h3 { font-size: 1.1rem; }
+h1 { font-size: 1.85rem; margin-top: 2rem; }
+h2 {
+  font-size: 1.35rem;
+  margin-top: 2.2rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--lightgray);
+}
+h3 { font-size: 1.1rem; margin-top: 1.6rem; }
+h4 { font-size: 0.95rem; margin-top: 1.2rem; color: var(--secondary) !important; }
 
-// ─── Page title ───────────────────────────────────────────────────────────────
+p { margin: 0.85rem 0; }
+
+// ─── Page title (left sidebar) ────────────────────────────────────────────────
 
 .page-title {
   font-weight: 700;
   letter-spacing: -0.03em;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: var(--dark) !important;
+  margin-bottom: 1rem;
+
+  a { color: var(--dark) !important; }
 }
 
-// ─── Article heading line ─────────────────────────────────────────────────────
+// ─── Article first heading ────────────────────────────────────────────────────
 
 article > h1:first-of-type {
   border-bottom: 2px solid var(--lightgray);
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
+  margin-top: 0;
 }
 
-// ─── Tables — tracker.shiri.cc–inspired ──────────────────────────────────────
+// ─── Tables — tracker.shiri.cc inspired ──────────────────────────────────────
 
 table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.875rem;
+  font-size: 0.88rem;
   margin: 1.5rem 0;
   border: 1px solid var(--lightgray);
-  border-radius: 6px;
+  border-radius: 8px;
   overflow: hidden;
+  box-shadow: 0 1px 3px color-mix(in srgb, var(--dark) 4%, transparent);
 
   thead {
-    background-color: var(--lightgray);
+    background-color: color-mix(in srgb, var(--lightgray) 70%, var(--light));
 
     th {
-      padding: 0.55rem 0.85rem;
+      padding: 0.6rem 0.9rem;
       text-align: left;
       font-weight: 600;
-      font-size: 0.8rem;
-      letter-spacing: 0.04em;
+      font-size: 0.74rem;
+      letter-spacing: 0.07em;
       text-transform: uppercase;
-      color: var(--darkgray);
-      border-bottom: 2px solid color-mix(in srgb, var(--gray) 40%, transparent);
+      color: var(--gray);
+      border-bottom: 2px solid color-mix(in srgb, var(--gray) 30%, transparent);
     }
   }
 
@@ -65,25 +81,18 @@ table {
       border-bottom: 1px solid var(--lightgray);
       transition: background-color 0.12s ease;
 
-      &:last-child {
-        border-bottom: none;
-      }
+      &:last-child { border-bottom: none; }
 
-      &:hover {
-        background-color: var(--highlight);
-      }
+      &:hover { background-color: var(--highlight); }
 
       &:nth-child(even) {
         background-color: color-mix(in srgb, var(--light) 60%, var(--lightgray) 40%);
-
-        &:hover {
-          background-color: var(--highlight);
-        }
+        &:hover { background-color: var(--highlight); }
       }
     }
 
     td {
-      padding: 0.5rem 0.85rem;
+      padding: 0.55rem 0.9rem;
       vertical-align: top;
       color: var(--darkgray);
     }
@@ -95,9 +104,9 @@ table {
 blockquote {
   border-left: 3px solid var(--tertiary);
   margin: 1.5rem 0;
-  padding: 0.75rem 1.2rem;
+  padding: 0.85rem 1.25rem;
   background-color: var(--highlight);
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 8px 8px 0;
   font-style: italic;
   color: var(--darkgray) !important;
 
@@ -107,87 +116,136 @@ blockquote {
   }
 }
 
-// ─── Internal links ───────────────────────────────────────────────────────────
+// ─── Links ───────────────────────────────────────────────────────────────────
 
-a.internal {
-  border-radius: 3px;
-  padding: 0 0.15rem;
-  font-weight: 500;
+a {
+  transition: color 0.15s ease, background-color 0.15s ease;
 }
 
-// ─── Tags ─────────────────────────────────────────────────────────────────────
+a.internal {
+  border-radius: 4px;
+  padding: 0.05rem 0.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+  border-bottom: 1px dashed color-mix(in srgb, var(--secondary) 40%, transparent);
+
+  &:hover {
+    background-color: var(--highlight);
+    border-bottom-color: var(--tertiary);
+    color: var(--tertiary);
+  }
+}
+
+a.external {
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--secondary) 35%, transparent);
+
+  &:hover {
+    border-bottom-color: var(--tertiary);
+  }
+}
+
+// ─── Tag pills ───────────────────────────────────────────────────────────────
 
 li.tag-item > a {
-  border-radius: 4px;
-  padding: 0.15rem 0.5rem;
-  font-size: 0.78rem;
+  border-radius: 999px;
+  padding: 0.18rem 0.6rem;
+  font-size: 0.74rem;
   font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   background-color: var(--lightgray);
   color: var(--darkgray);
   text-decoration: none;
-  transition: background-color 0.15s ease, color 0.15s ease;
+  border: none;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
 
   &:hover {
     background-color: var(--tertiary);
     color: var(--light);
-  }
-}
-
-// ─── Dark mode toggle ─────────────────────────────────────────────────────────
-
-#darkmode-toggle {
-  border-radius: 6px;
-  padding: 0.3rem;
-  transition: background-color 0.15s ease;
-
-  &:hover {
-    background-color: var(--lightgray);
+    transform: translateY(-1px);
   }
 }
 
 // ─── Search bar ───────────────────────────────────────────────────────────────
 
+#search-container {
+  flex-grow: 1;
+}
+
 #search-bar {
-  border-radius: 8px;
+  border-radius: 999px;
   border: 1px solid var(--lightgray);
   background: var(--light);
   color: var(--darkgray);
   font-family: var(--bodyFont);
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.85rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+
+  &::placeholder { color: var(--gray); }
+
+  &:hover { border-color: var(--gray); }
 
   &:focus {
     outline: none;
     border-color: var(--tertiary);
-    box-shadow: 0 0 0 2px color-mix(in srgb, var(--tertiary) 20%, transparent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--tertiary) 18%, transparent);
+  }
+}
+
+.search-button {
+  background: var(--light);
+  border-radius: 999px;
+  border: 1px solid var(--lightgray);
+  padding: 0.4rem 0.85rem;
+  transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    border-color: var(--tertiary);
+    color: var(--tertiary);
+    background-color: var(--highlight);
   }
 }
 
 // ─── Explorer sidebar ─────────────────────────────────────────────────────────
+
+.explorer {
+  & button#explorer {
+    font-weight: 600;
+    color: var(--dark);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
 
 .explorer-content {
   li > a {
     font-weight: 400;
     font-size: 0.875rem;
     color: var(--darkgray);
-    transition: color 0.12s ease;
+    transition: color 0.12s ease, transform 0.12s ease;
+    display: inline-block;
+    border: none;
+    background: none;
+    padding: 0.1rem 0;
 
     &:hover {
       color: var(--tertiary);
+      transform: translateX(2px);
     }
   }
 
   .folder-outer > .fold {
     color: var(--gray);
   }
-}
 
-// ─── Graph view ───────────────────────────────────────────────────────────────
-
-.graph-outer {
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid var(--lightgray);
+  & ul {
+    padding-left: 0.85rem;
+    border-left: 1px solid var(--lightgray);
+    margin-left: 0.4rem;
+  }
 }
 
 // ─── Code blocks ─────────────────────────────────────────────────────────────
@@ -197,31 +255,40 @@ pre {
   border: 1px solid var(--lightgray);
   font-size: 0.82rem;
   padding: 1rem 1.2rem !important;
+  background-color: color-mix(in srgb, var(--lightgray) 35%, var(--light)) !important;
 }
 
 code:not(pre > code) {
   border-radius: 4px;
-  padding: 0.1em 0.35em;
-  font-size: 0.85em;
+  padding: 0.12em 0.35em;
+  font-size: 0.86em;
   background-color: var(--lightgray);
   color: var(--darkgray);
+  border: 1px solid color-mix(in srgb, var(--gray) 18%, transparent);
 }
 
 // ─── Backlinks / ToC panel ───────────────────────────────────────────────────
 
 .backlinks, .toc {
   border: 1px solid var(--lightgray);
-  border-radius: 8px;
-  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  padding: 0.85rem 1.05rem;
   font-size: 0.875rem;
+  background-color: color-mix(in srgb, var(--light) 70%, var(--lightgray) 30%);
 
   h3 {
-    font-size: 0.78rem;
-    letter-spacing: 0.06em;
+    font-size: 0.74rem;
+    letter-spacing: 0.07em;
     text-transform: uppercase;
     color: var(--gray);
-    margin-bottom: 0.6rem;
+    margin: 0 0 0.7rem 0;
+    font-weight: 600;
+    border-bottom: none;
+    padding-bottom: 0;
   }
+
+  ul { padding-left: 1rem; }
+  li { margin: 0.25rem 0; }
 }
 
 // ─── Footer ──────────────────────────────────────────────────────────────────
@@ -230,32 +297,147 @@ footer {
   font-size: 0.8rem;
   color: var(--gray);
   border-top: 1px solid var(--lightgray);
-  padding-top: 1rem;
-  margin-top: 2rem;
+  padding-top: 1.2rem;
+  margin-top: 3rem;
+  text-align: center;
 
-  p {
-    color: var(--gray) !important;
+  p, & * { color: var(--gray) !important; }
+
+  ul {
+    display: inline-flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0.4rem 0 0;
+    list-style: none;
+    justify-content: center;
   }
 }
 
 // ─── Popover ─────────────────────────────────────────────────────────────────
 
 .popover {
-  border-radius: 10px;
+  border-radius: 12px;
   border: 1px solid var(--lightgray);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 32px color-mix(in srgb, var(--dark) 18%, transparent);
+  background-color: var(--light);
+
+  .popover-inner {
+    padding: 0.8rem 1rem;
+  }
 }
 
-// ─── Content meta ────────────────────────────────────────────────────────────
+// ─── Content meta (date + reading time) ──────────────────────────────────────
 
 .content-meta {
   color: var(--gray);
   font-size: 0.8rem;
   margin-bottom: 1.5rem;
+  font-style: normal;
 }
 
-// ─── Smooth dark/light body transition ───────────────────────────────────────
+// ─── Breadcrumbs ─────────────────────────────────────────────────────────────
 
-body, .sidebar, article {
-  transition: background-color 0.2s ease, color 0.2s ease;
+.breadcrumb-container {
+  font-size: 0.78rem;
+  color: var(--gray);
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+
+  a {
+    color: var(--gray);
+    border: none;
+    background: none;
+
+    &:hover { color: var(--tertiary); }
+  }
+
+  .breadcrumb-element { padding: 0; }
+}
+
+// ─── Article title ───────────────────────────────────────────────────────────
+
+.article-title {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+// ─── Tag list at top of page ─────────────────────────────────────────────────
+
+.tags {
+  margin: 0.75rem 0 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+// ─── Folder/Tag list page items ──────────────────────────────────────────────
+
+.section-li {
+  border-top: 1px solid var(--lightgray);
+  padding: 1rem 0;
+
+  &:last-child { border-bottom: 1px solid var(--lightgray); }
+
+  .section {
+    & > .desc { color: var(--darkgray); }
+    & > .meta { color: var(--gray); font-size: 0.78rem; }
+
+    h3 a {
+      color: var(--dark);
+      border: none;
+      &:hover { color: var(--tertiary); }
+    }
+  }
+}
+
+// ─── Smooth dark/light transition ────────────────────────────────────────────
+
+body, .sidebar, article, table, blockquote, .backlinks, .toc, .graph-outer,
+.popover, #search-bar, pre, code {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+// ─── Reading-mode button ─────────────────────────────────────────────────────
+
+.readermode {
+  border: 1px solid var(--lightgray);
+  border-radius: 999px;
+  padding: 0.3rem;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  color: var(--darkgray);
+  transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    border-color: var(--tertiary);
+    color: var(--tertiary);
+    background-color: var(--highlight);
+  }
+}
+
+// ─── Subtle scrollbar ────────────────────────────────────────────────────────
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--lightgray) transparent;
+}
+
+*::-webkit-scrollbar { width: 8px; height: 8px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb {
+  background: var(--lightgray);
+  border-radius: 999px;
+
+  &:hover { background: var(--gray); }
+}
+
+// ─── Horizontal rule ─────────────────────────────────────────────────────────
+
+hr {
+  border: none;
+  border-top: 1px solid var(--lightgray);
+  margin: 2rem 0;
 }
