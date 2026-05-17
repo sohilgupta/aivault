@@ -345,3 +345,30 @@ Key findings:
 - Palmer Luckey's defense AI perspective shows AI already operationally deployed in autonomous weapons — not future speculation
 - Marc Andreessen's "World Malleable" fills in the historical/philosophical foundation for the founder+AI formula already documented in prior sources
 - Elon Lex 400 primarily valuable for AGI-as-civilisational-risk framing, reinforcing Leopold Aschenbrenner's arguments from a different angle
+
+---
+
+## [2026-05-17] ingest | Brian Chesky (Airbnb AI Era) + Krishna Rao (Anthropic $100B Compute) — Invest Like The Best double ingest
+
+Two Invest Like The Best podcasts ingested together.
+
+Source 1: `raw/podcasts/How Brian Chesky Is Redesigning Airbnb for the AI Era.md` → `wiki/sources/brian-chesky-airbnb-ai-era.md`. Brian Chesky on AI Founder Mode, consumer-AI renaissance (12–24 months out), Project Hawaii (10–12 person teams driving 600bps conversion on $134B GMV), 11-Star Experience, home→person atomic unit shift, hiring as CEO's #1 job, apps→agents.
+
+Source 2: `raw/podcasts/Inside Anthropic's $100 Billion Al Compute Commitment  CFO Krishna Rao.md` → `wiki/sources/krishna-rao-anthropic-compute.md`. Anthropic CFO Krishna Rao on $9B → $30B Q1 2026 run rate, $100B+ compute commitments (5GW TPU/Broadcom + 5GW Trainium + SpaceX Colossus Memphis), cone-of-uncertainty planning, three-chip fungibility, 90%+ of Claude code written by Claude Code, Mythos phased release for cyber, "virtual collaborator" vision, NDR >500%, 9-of-Fortune-10 enterprise base.
+
+Pages created (5):
+- `wiki/sources/brian-chesky-airbnb-ai-era.md`
+- `wiki/sources/krishna-rao-anthropic-compute.md`
+- `wiki/entities/brian-chesky.md`
+- `wiki/entities/airbnb.md`
+- `wiki/entities/krishna-rao.md`
+
+Pages updated (2):
+- `wiki/entities/anthropic.md` (added Krishna Rao source appearance with Q1 revenue + $100B compute commitments)
+- `wiki/index.md` (added 2 source rows, 3 entity rows; bumped page count)
+
+Cross-link notable: Both Chesky and Rao use "talent density beats talent mass" verbatim in the same week. Rao previously led Airbnb's pandemic financing under Chesky — direct biographical link between the two sources.
+
+No new concept pages — the major frames (AI Founder Mode, consumer-AI renaissance, cone-of-uncertainty, virtual collaborator) extend existing concepts ([[wiki/concepts/agentic-engineering]], [[wiki/concepts/personal-agents]], [[wiki/concepts/scaling-laws]], [[wiki/concepts/tokenomics]], [[wiki/concepts/ai-diffusion]]) rather than warranting standalone pages yet. Reassess if these terms recur.
+
+No contradictions with existing pages. Rao's "scaling laws not slowing" sits in productive tension with [[wiki/concepts/post-scaling-research]] / [[wiki/sources/ilya-sutskever-age-of-research]] — flagged in source page Connections.

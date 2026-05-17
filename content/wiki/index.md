@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-05-17 | Pages: 113
+Last updated: 2026-05-17 | Pages: 118
 
 > This file is maintained by the LLM. Do not edit manually.
 > The LLM reads this first when answering queries to locate relevant pages.
@@ -42,6 +42,8 @@ Last updated: 2026-05-17 | Pages: 113
 | [[wiki/sources/gavin-baker-gpu-economics]] | Invest Like The Best — Gavin Baker on Blackwell transition, reasoning models saving AI, TPU economics, two new post-training scaling laws, ROI on AI | 2026-05-17 |
 | [[wiki/sources/elon-musk-lex-fridman-400]] | Lex Fridman #400 — Elon Musk on war philosophy, AGI as civilisational risk, US-China Thucydides Trap, nuclear risk, ignorance as the real enemy | 2026-05-17 |
 | [[wiki/sources/gokul-rajaram-ai-product-development]] | Invest Like The Best — Gokul Rajaram on non-deterministic software, judgment as future-proof skill, AI impact on PMs/designers, SaaS durability taxonomy | 2026-05-17 |
+| [[wiki/sources/brian-chesky-airbnb-ai-era]] | Invest Like The Best — Brian Chesky on AI Founder Mode, consumer-AI renaissance, Project Hawaii small teams, 11-Star Experience, home→person atomic unit, apps→agents | 2026-05-17 |
+| [[wiki/sources/krishna-rao-anthropic-compute]] | Invest Like The Best — Anthropic CFO Krishna Rao: $9B→$30B Q1 revenue, $100B+ compute commitments, cone of uncertainty, three-chip strategy, Mythos phased release, virtual collaborator | 2026-05-17 |
 
 ---
 
@@ -72,6 +74,9 @@ Last updated: 2026-05-17 | Pages: 113
 | [[wiki/entities/palmer-luckey]] | Person | Founder of Oculus and Anduril Industries; defense AI; non-humanoid autonomous weapons; VR+AI combat training |
 | [[wiki/entities/gavin-baker]] | Person | Technology investor; encyclopedic AI infrastructure knowledge; reasoning models saved AI; lowest-cost token producer thesis |
 | [[wiki/entities/gokul-rajaram]] | Person | Product executive (Google, Facebook, Square, DoorDash); non-deterministic software thesis; judgment as future-proof skill |
+| [[wiki/entities/brian-chesky]] | Person | Co-founder/CEO Airbnb; coined "AI Founder Mode"; 11-Star Experience; pipeline recruiting; home→person atomic unit |
+| [[wiki/entities/airbnb]] | Organisation | $134B GMV marketplace; AI redesign in progress; Project Hawaii small-team pattern; 50–70 vertical ambition; identity-as-atomic-unit |
+| [[wiki/entities/krishna-rao]] | Person | CFO Anthropic; ex-Airbnb, ex-Blackstone PE; raised $75B+ since joining; cone-of-uncertainty + ROI-on-compute frame; 30–40% of time on compute |
 
 ---
 

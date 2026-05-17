@@ -40,6 +40,7 @@ Dylan Patel's view: Anthropic leads on model quality but is **compute-constraine
 - [[wiki/sources/dylan-patel-token-supply-demand]] — discussed extensively as leading lab, compute constraints, Mythos reveal, revenue trajectory
 - [[wiki/sources/dario-amodei-end-of-exponential]] — CEO's worldview; biological revolution thesis; culture (DVQ); revenue exponential (2023 $0→$100M → 2025 $1B→$9B); diffusion vs capability framework
 - [[wiki/sources/openai-founders-core-memory]] — referenced as compute-constrained competitor; LLM path as more optimistic than competitive-agent approach
+- [[wiki/sources/krishna-rao-anthropic-compute]] — CFO first-party account: Q1 2026 revenue $9B→$30B; $100B+ in compute commitments (5GW TPU/Broadcom, 5GW Trainium, SpaceX Colossus); multi-chip multi-cloud strategy; 90%+ of Claude written by Claude Code; NDR >500%; Mythos phased release; "talent density beats talent mass"; virtual-collaborator vision
 
 ## Connections
 
