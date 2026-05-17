@@ -37,19 +37,9 @@ Notable: No contradictions found (first source). Open questions logged on soul.m
 
 ---
 
-## [2026-04-19] ingest | Gokaldas Exports — Quarterly Results and Financial Statements (Trendlyne, Dec 2025)
+## [2026-05-17] edit | Removed off-topic entries (apparel-exports-india, capex-cycle-analysis)
 
-Source: `raw/Gokaldas Exports - Quarterly Results and Financial Statement as of Dec, 2025.md`
-
-Pages created (4 total):
-- `wiki/sources/gokaldas-exports-financials-dec2025.md`
-- `wiki/entities/gokaldas-exports.md`
-- `wiki/concepts/apparel-exports-india.md`
-- `wiki/concepts/capex-cycle-analysis.md`
-
-Pages updated: `wiki/index.md`, `wiki/log.md`, `wiki/overview.md`
-
-Key findings: Revenue growing (+7.9% YoY Q3FY26) but profit declining (-20.1%). Margin compressed from 13.5% peak to 8.3%. Heavy capex cycle (₹450 Cr/year investing) producing negative FCF. Balance sheet dramatically strengthened (D/E 0.1x). Unknown ₹531 Cr non-current investment flagged as open question.
+Deleted `wiki/concepts/apparel-exports-india.md` and `wiki/concepts/capex-cycle-analysis.md` as not relevant to this AI knowledge map. Updated `wiki/index.md` to remove their entries.
 
 ---
 

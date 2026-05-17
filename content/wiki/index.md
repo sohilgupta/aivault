@@ -87,8 +87,6 @@ Last updated: 2026-04-25 | Pages: 102
 | [[wiki/concepts/post-scaling-research]] | Ilya's thesis: after the internet data wall, algorithmic insight (not compute) becomes the differentiating skill; age of research |
 | [[wiki/concepts/ai-sovereignty]] | Geopolitical dimension of AI deployment: trust, data residency, concentration risk, open source as structural check |
 | [[wiki/concepts/agi-timeline]] | Cross-source comparison of AGI timeline predictions: 2027 (Leopold), 1-2yr (Dario), not far (Sam); intelligence explosion implications |
-| [[wiki/concepts/apparel-exports-india]] | India's garment export sector; China+1 tailwind; labour-intensive; order-book driven; PLI support |
-| [[wiki/concepts/capex-cycle-analysis]] | Framework for evaluating companies in heavy investment cycles; FCF negative, return ratios depressed, but future earnings power higher |
 
 ---
 

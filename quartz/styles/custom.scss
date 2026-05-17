@@ -1,3 +1,261 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ─── Typography refinements ───────────────────────────────────────────────────
+
+body {
+  font-size: 15px;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.1rem; }
+
+// ─── Page title ───────────────────────────────────────────────────────────────
+
+.page-title {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-size: 1.1rem;
+  color: var(--dark) !important;
+}
+
+// ─── Article heading line ─────────────────────────────────────────────────────
+
+article > h1:first-of-type {
+  border-bottom: 2px solid var(--lightgray);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+// ─── Tables — tracker.shiri.cc–inspired ──────────────────────────────────────
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  margin: 1.5rem 0;
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  overflow: hidden;
+
+  thead {
+    background-color: var(--lightgray);
+
+    th {
+      padding: 0.55rem 0.85rem;
+      text-align: left;
+      font-weight: 600;
+      font-size: 0.8rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--darkgray);
+      border-bottom: 2px solid color-mix(in srgb, var(--gray) 40%, transparent);
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid var(--lightgray);
+      transition: background-color 0.12s ease;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &:hover {
+        background-color: var(--highlight);
+      }
+
+      &:nth-child(even) {
+        background-color: color-mix(in srgb, var(--light) 60%, var(--lightgray) 40%);
+
+        &:hover {
+          background-color: var(--highlight);
+        }
+      }
+    }
+
+    td {
+      padding: 0.5rem 0.85rem;
+      vertical-align: top;
+      color: var(--darkgray);
+    }
+  }
+}
+
+// ─── Blockquotes ─────────────────────────────────────────────────────────────
+
+blockquote {
+  border-left: 3px solid var(--tertiary);
+  margin: 1.5rem 0;
+  padding: 0.75rem 1.2rem;
+  background-color: var(--highlight);
+  border-radius: 0 6px 6px 0;
+  font-style: italic;
+  color: var(--darkgray) !important;
+
+  p {
+    margin: 0;
+    color: var(--darkgray) !important;
+  }
+}
+
+// ─── Internal links ───────────────────────────────────────────────────────────
+
+a.internal {
+  border-radius: 3px;
+  padding: 0 0.15rem;
+  font-weight: 500;
+}
+
+// ─── Tags ─────────────────────────────────────────────────────────────────────
+
+li.tag-item > a {
+  border-radius: 4px;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  background-color: var(--lightgray);
+  color: var(--darkgray);
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background-color: var(--tertiary);
+    color: var(--light);
+  }
+}
+
+// ─── Dark mode toggle ─────────────────────────────────────────────────────────
+
+#darkmode-toggle {
+  border-radius: 6px;
+  padding: 0.3rem;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: var(--lightgray);
+  }
+}
+
+// ─── Search bar ───────────────────────────────────────────────────────────────
+
+#search-bar {
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--darkgray);
+  font-family: var(--bodyFont);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  &:focus {
+    outline: none;
+    border-color: var(--tertiary);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--tertiary) 20%, transparent);
+  }
+}
+
+// ─── Explorer sidebar ─────────────────────────────────────────────────────────
+
+.explorer-content {
+  li > a {
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--darkgray);
+    transition: color 0.12s ease;
+
+    &:hover {
+      color: var(--tertiary);
+    }
+  }
+
+  .folder-outer > .fold {
+    color: var(--gray);
+  }
+}
+
+// ─── Graph view ───────────────────────────────────────────────────────────────
+
+.graph-outer {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--lightgray);
+}
+
+// ─── Code blocks ─────────────────────────────────────────────────────────────
+
+pre {
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  font-size: 0.82rem;
+  padding: 1rem 1.2rem !important;
+}
+
+code:not(pre > code) {
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  font-size: 0.85em;
+  background-color: var(--lightgray);
+  color: var(--darkgray);
+}
+
+// ─── Backlinks / ToC panel ───────────────────────────────────────────────────
+
+.backlinks, .toc {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+
+  h3 {
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 0.6rem;
+  }
+}
+
+// ─── Footer ──────────────────────────────────────────────────────────────────
+
+footer {
+  font-size: 0.8rem;
+  color: var(--gray);
+  border-top: 1px solid var(--lightgray);
+  padding-top: 1rem;
+  margin-top: 2rem;
+
+  p {
+    color: var(--gray) !important;
+  }
+}
+
+// ─── Popover ─────────────────────────────────────────────────────────────────
+
+.popover {
+  border-radius: 10px;
+  border: 1px solid var(--lightgray);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+// ─── Content meta ────────────────────────────────────────────────────────────
+
+.content-meta {
+  color: var(--gray);
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+// ─── Smooth dark/light body transition ───────────────────────────────────────
+
+body, .sidebar, article {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
