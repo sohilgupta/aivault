@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-05-17 | Pages: 118
+Last updated: 2026-05-23 | Pages: 122
 
 > This file is maintained by the LLM. Do not edit manually.
 > The LLM reads this first when answering queries to locate relevant pages.
@@ -44,6 +44,7 @@ Last updated: 2026-05-17 | Pages: 118
 | [[wiki/sources/gokul-rajaram-ai-product-development]] | Invest Like The Best — Gokul Rajaram on non-deterministic software, judgment as future-proof skill, AI impact on PMs/designers, SaaS durability taxonomy | 2026-05-17 |
 | [[wiki/sources/brian-chesky-airbnb-ai-era]] | Invest Like The Best — Brian Chesky on AI Founder Mode, consumer-AI renaissance, Project Hawaii small teams, 11-Star Experience, home→person atomic unit, apps→agents | 2026-05-17 |
 | [[wiki/sources/krishna-rao-anthropic-compute]] | Invest Like The Best — Anthropic CFO Krishna Rao: $9B→$30B Q1 revenue, $100B+ compute commitments, cone of uncertainty, three-chip strategy, Mythos phased release, virtual collaborator | 2026-05-17 |
+| [[wiki/sources/marc-andreessen-jre-2501]] | JRE #2501 — Marc Andreessen: Flock AI surveillance, "AGI already here", sand-into-thought, AI vampire/bots-managing-bots, LLMs-write-Netflix-scripts safety reframe, US-China values race, robots & abundance | 2026-05-23 |
 
 ---
 
@@ -77,6 +78,7 @@ Last updated: 2026-05-17 | Pages: 118
 | [[wiki/entities/brian-chesky]] | Person | Co-founder/CEO Airbnb; coined "AI Founder Mode"; 11-Star Experience; pipeline recruiting; home→person atomic unit |
 | [[wiki/entities/airbnb]] | Organisation | $134B GMV marketplace; AI redesign in progress; Project Hawaii small-team pattern; 50–70 vertical ambition; identity-as-atomic-unit |
 | [[wiki/entities/krishna-rao]] | Person | CFO Anthropic; ex-Airbnb, ex-Blackstone PE; raised $75B+ since joining; cone-of-uncertainty + ROI-on-compute frame; 30–40% of time on compute |
+| [[wiki/entities/flock]] | Organisation | a16z AI public-safety company; real-time vehicle ID from city cameras (incl. plateless); disabled by Austin, central AI-surveillance case |
 
 ---
 
@@ -101,6 +103,8 @@ Last updated: 2026-05-17 | Pages: 118
 | [[wiki/concepts/ai-sovereignty]] | Geopolitical dimension of AI deployment: trust, data residency, concentration risk, open source as structural check |
 | [[wiki/concepts/agi-timeline]] | Cross-source comparison of AGI timeline predictions: 2027 (Leopold), 1-2yr (Dario), not far (Sam); intelligence explosion implications |
 | [[wiki/concepts/non-deterministic-software]] | AI-powered software produces variable outputs for identical inputs; shifts quality ownership from spec-writing to evals; judgment is the remaining human skill |
+| [[wiki/concepts/ai-surveillance]] | AI applied to monitoring physical space at scale (Flock cameras, ShotSpotter); crime-solving vs. mass-surveillance/abuse trade-off; extends to robots and wearables |
+| [[wiki/concepts/llm-no-drives]] | Andreessen's reframe: LLMs "write Netflix scripts", have no self-preservation; rogue behaviour is primed via doomer-seeded latent space — counter to doomer framings |
 
 ---
 

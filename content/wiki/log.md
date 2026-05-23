@@ -372,3 +372,7 @@ Cross-link notable: Both Chesky and Rao use "talent density beats talent mass" v
 No new concept pages — the major frames (AI Founder Mode, consumer-AI renaissance, cone-of-uncertainty, virtual collaborator) extend existing concepts ([[wiki/concepts/agentic-engineering]], [[wiki/concepts/personal-agents]], [[wiki/concepts/scaling-laws]], [[wiki/concepts/tokenomics]], [[wiki/concepts/ai-diffusion]]) rather than warranting standalone pages yet. Reassess if these terms recur.
 
 No contradictions with existing pages. Rao's "scaling laws not slowing" sits in productive tension with [[wiki/concepts/post-scaling-research]] / [[wiki/sources/ilya-sutskever-age-of-research]] — flagged in source page Connections.
+
+## [2026-05-23] ingest | Joe Rogan Experience #2501 — Marc Andreessen
+
+Ingested JRE #2501 (~49k words). Created source page [[wiki/sources/marc-andreessen-jre-2501]]. New entity [[wiki/entities/flock]] (a16z AI surveillance company). New concepts [[wiki/concepts/ai-surveillance]] and [[wiki/concepts/llm-no-drives]] (Netflix-script / latent-space reframe of AI risk). Updated [[wiki/entities/marc-andreessen]] with AGI-already-here, sand-into-thought, AI-vampire/bots-managing-bots, surveillance and US-China-values claims. Updated index (118→122 pages). Noted tension with [[wiki/concepts/ai-diffusion]] (resistance vs. consumer-adoption speed). First hour of episode is non-AI politics (asset tax, crime, socialism) — lightly noted, not built into pages.

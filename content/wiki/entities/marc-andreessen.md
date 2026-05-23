@@ -31,12 +31,20 @@ Marc Andreessen is one of the most influential technology investors and thinkers
 - **Grand unification: AI + crypto**: AI agents need money. Crypto stablecoins are internet-native money. HTTP 402 (payment required) was the missing primitive. The two industries are about to unify.
 - **Agent financial autonomy**: Leading OpenClaw power users have already given their agents bank accounts and credit cards. 5,000 today → millions later.
 - **Death of the browser**: AI agents don't need browser abstractions built for human limitations. Direct API/protocol interaction replaces UI navigation.
+- **AGI already arrived (~early 2026)**: claims the latest frontier models crossed the AGI threshold "about 3 months ago"; the Turing test fell silently in late 2022. "Better than 99% of experts 99% of the time."
+- **"Sand into thought"**: AI as alchemy / "universal basic superpowers" — a world-class doctor, lawyer, coach, tutor in every smartphone; democratized faster than any prior technology (contra centralization fears). On par with electricity and steam.
+- **AI vampire + bots-managing-bots**: engineers ~20x more productive orchestrate ~20 coding agents at once and stop sleeping; the next step is hierarchical "bots managing bots", programmers eventually 1000x productive overseeing org-charts of agents.
+- **Job-loss is a red herring (elasticity)**: near-infinite latent demand absorbs productivity gains; layoffs blamed on AI were really overstaffing; top AI coders earn ~$50M/yr.
+- **"LLMs write Netflix scripts"**: models have no drives or self-preservation; rogue behaviour is *primed* by steering into doomer-seeded latent space — "the call is coming from inside the house" (see [[wiki/concepts/llm-no-drives]]).
+- **AI surveillance trade-off**: defends Flock/ShotSpotter (crime-solving) against civil-libertarian and disparate-impact objections; question is governance, not abandonment (see [[wiki/concepts/ai-surveillance]]).
+- **US-China**: US labs only 6–12 months ahead on software, behind on robots; Chinese model cards score "Marxism" and "Xi Jinping Thought"; AI as the future "control layer" makes embedded values geopolitically decisive.
 
 ## Appearances in Sources
 
 - [[wiki/sources/marc-andreessen-real-ai-boom]] — AI diffusion resistance, cartel thesis, founder-AI formula
 - [[wiki/sources/marc-andreessen-openclaw-agents]] — OpenClaw specifically, AI+crypto grand unification, browser death, agent financial autonomy
 - [[wiki/sources/marc-andreessen-world-malleable]] — historical framework: bourgeois capitalism vs managerialism; zero introspection mindset; founders vs managers; Elon Musk as Henry Ford archetype
+- [[wiki/sources/marc-andreessen-jre-2501]] — AGI-already-here, "sand into thought", AI vampire/bots-managing-bots, Netflix-script reframe of safety, Flock/AI surveillance, US-China values race, robots/abundance optimism
 
 ## Connections
 
