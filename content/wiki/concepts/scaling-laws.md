@@ -62,9 +62,14 @@ All three scaling laws are **multiplicative** — better base models + better po
 
 - [[wiki/sources/dylan-patel-token-supply-demand]] — Dylan's explicit discussion of Mythos as scaling law proof; release cadence compression
 - [[wiki/sources/gavin-baker-gpu-economics]] — two new post-training scaling laws; Gemini 3 confirmation; ARC-AGI evidence
+- [[wiki/sources/reiner-pope-training-serving]] — equalizing train/RL/inference compute implies models are ~100x over-trained beyond Chinchilla; RL = 2-6 FLOP/param
+- [[wiki/sources/gavin-baker-watts-wafers]] — bitter lesson (and its possible ASI-driven violation) and continual learning as the biggest scaling risks
+- [[wiki/sources/eric-jang-alphago-selfplay]] — inference-compute/training-compute tradeoff (Andy Jones 2021); distillation bits/sample; RL info-inefficiency
 
 ## Related Concepts
 
+- [[wiki/concepts/inference-economics]] — the train/inference compute balance that drives over-training
+- [[wiki/concepts/self-play-rl]] — RL/search as a scaling axis; why AlphaGo-style RL differs from LLM RL
 - [[wiki/concepts/tokenomics]] — scaling laws drive why frontier tokens generate outsized value
 - [[wiki/concepts/ai-permanent-underclass]] — those with frontier model access benefit from capability jumps; others don't
 - [[wiki/concepts/agentic-engineering]] — what becomes possible when scaling laws keep delivering better base models

@@ -41,6 +41,8 @@ Dylan Patel's view: Anthropic leads on model quality but is **compute-constraine
 - [[wiki/sources/dario-amodei-end-of-exponential]] — CEO's worldview; biological revolution thesis; culture (DVQ); revenue exponential (2023 $0→$100M → 2025 $1B→$9B); diffusion vs capability framework
 - [[wiki/sources/openai-founders-core-memory]] — referenced as compute-constrained competitor; LLM path as more optimistic than competitive-agent approach
 - [[wiki/sources/krishna-rao-anthropic-compute]] — CFO first-party account: Q1 2026 revenue $9B→$30B; $100B+ in compute commitments (5GW TPU/Broadcom, 5GW Trainium, SpaceX Colossus); multi-chip multi-cloud strategy; 90%+ of Claude written by Claude Code; NDR >500%; Mythos phased release; "talent density beats talent mass"; virtual-collaborator vision
+- [[wiki/sources/gavin-baker-watts-wafers]] — "added Palantir+Snowflake+Databricks' combined revenue in one month"; ~80% less burn than OpenAI → better ROIC; ~5x "unconstrained run-rate revenue"; Claude now generates ~70% fewer tokens (deprecated intelligence)
+- [[wiki/sources/eric-jang-alphago-selfplay]] — Opus 4.6/4.7 used for automated AI research (strong at hyperparameter/experiment execution, weak at lateral thinking)
 
 ## Connections
 

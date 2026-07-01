@@ -38,6 +38,8 @@ Per Sam Altman: ChatGPT was not OpenAI's most technically impressive product, bu
 
 - [[wiki/sources/openai-founders-core-memory]] — primary; founding story, ChatGPT, Elon split, personal AGI vision
 - [[wiki/sources/dylan-patel-token-supply-demand]] — compute advantage; likely to catch Anthropic's model quality soon
+- [[wiki/sources/gavin-baker-watts-wafers]] — ~5x more burn than Anthropic for similar revenue; secured aggressive compute; Sarah Frier praised as CFO; frontier Pareto position
+- [[wiki/sources/harvard-dropouts-nvidia-challenger]] — "Jalapeño" in-house inference chip cited; "OpenAI won't fail if Jalapeño fails" (why in-house chips lag)
 
 ## Connections
 

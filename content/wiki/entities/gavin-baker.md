@@ -35,6 +35,7 @@ Gavin Baker is a technology investor who appears regularly on Invest Like The Be
 ## Appearances in Sources
 
 - [[wiki/sources/gavin-baker-gpu-economics]] — Blackwell transition, TPU economics, reasoning models, ROI on AI, bear case, Gemini 3, China compute gap
+- [[wiki/sources/gavin-baker-watts-wafers]] — "most extraordinary moment in capitalism" (Anthropic); watts (orbital compute) vs wafers (TSMC as the bubble-preventer); Terafab; Pareto frontier as the key lab metric; usage-based pricing; bitter lesson + continual learning as top risks; new chips must be "different AND hard"; PD disaggregation extends GPU life & rescues private credit; open-source game theory
 
 ## Connections
 

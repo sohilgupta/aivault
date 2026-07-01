@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-05-23 | Pages: 122
+Last updated: 2026-05-23 | Pages: 135
 
 > This file is maintained by the LLM. Do not edit manually.
 > The LLM reads this first when answering queries to locate relevant pages.
@@ -45,6 +45,12 @@ Last updated: 2026-05-23 | Pages: 122
 | [[wiki/sources/brian-chesky-airbnb-ai-era]] | Invest Like The Best — Brian Chesky on AI Founder Mode, consumer-AI renaissance, Project Hawaii small teams, 11-Star Experience, home→person atomic unit, apps→agents | 2026-05-17 |
 | [[wiki/sources/krishna-rao-anthropic-compute]] | Invest Like The Best — Anthropic CFO Krishna Rao: $9B→$30B Q1 revenue, $100B+ compute commitments, cone of uncertainty, three-chip strategy, Mythos phased release, virtual collaborator | 2026-05-17 |
 | [[wiki/sources/marc-andreessen-jre-2501]] | JRE #2501 — Marc Andreessen: Flock AI surveillance, "AGI already here", sand-into-thought, AI vampire/bots-managing-bots, LLMs-write-Netflix-scripts safety reframe, US-China values race, robots & abundance | 2026-05-23 |
+| [[wiki/sources/reiner-pope-training-serving]] | Dwarkesh blackboard — Reiner Pope on how LLMs are served: batch size ~1000x lever, optimal batch ≈300×sparsity, MoE-on-rack all-to-all, pipeline parallelism, ~100x over-training vs Chinchilla | 2026-05-23 |
+| [[wiki/sources/reiner-pope-chip-design]] | Dwarkesh blackboard — Reiner Pope building an AI chip bottom-up: gates→systolic arrays→FPGA/ASIC→cache vs scratchpad→GPU≈many tiny TPUs; compute-vs-communication | 2026-05-23 |
+| [[wiki/sources/jane-street-gpus-trading]] | Dwarkesh at Jane Street — Ron Minsky & Dan Pontecorvo on many trading time-horizons, $6B CoreWeave deal, FPGA determinism, "AGI-complete" trading, data-center engineering, hiring | 2026-05-23 |
+| [[wiki/sources/harvard-dropouts-nvidia-challenger]] | Invest Like The Best — Etched (Uberti & Wachen): inference ASIC, low-voltage inference, cluster-scale memory, Sohu, $800M raised, "production is the product", 40-day silicon-to-rack | 2026-05-23 |
+| [[wiki/sources/gavin-baker-watts-wafers]] | Invest Like The Best — Gavin Baker on watts (orbital compute) vs wafers (TSMC as bubble-preventer), Terafab, Pareto frontier, usage-based pricing, bitter lesson & continual-learning risks, "different AND hard" chips | 2026-05-23 |
+| [[wiki/sources/eric-jang-alphago-selfplay]] | Dwarkesh blackboard — Eric Jang rebuilds AlphaGo (~$10K): MCTS, self-play as improvement operator, why MCTS doesn't fit LLMs, RL info-inefficiency, distillation bits/sample, automated research | 2026-05-23 |
 
 ---
 
@@ -79,6 +85,10 @@ Last updated: 2026-05-23 | Pages: 122
 | [[wiki/entities/airbnb]] | Organisation | $134B GMV marketplace; AI redesign in progress; Project Hawaii small-team pattern; 50–70 vertical ambition; identity-as-atomic-unit |
 | [[wiki/entities/krishna-rao]] | Person | CFO Anthropic; ex-Airbnb, ex-Blackstone PE; raised $75B+ since joining; cone-of-uncertainty + ROI-on-compute frame; 30–40% of time on compute |
 | [[wiki/entities/flock]] | Organisation | a16z AI public-safety company; real-time vehicle ID from city cameras (incl. plateless); disabled by Austin, central AI-surveillance case |
+| [[wiki/entities/reiner-pope]] | Person | CEO of MatX (AI chip startup); ex-Google TPU architecture; blackboard lectures on chip design and inference economics; "compute vs communication" |
+| [[wiki/entities/jane-street]] | Organisation | Quant trading firm; $6B CoreWeave deal; FPGA/GPU/ASIC across many time-horizons; "AGI-complete" trading; heavy ML hiring |
+| [[wiki/entities/etched]] | Organisation | Inference ASIC startup (Sohu chip); Harvard-dropout founders; ~$800M raised; low-voltage inference + cluster-scale memory; "production is the product" |
+| [[wiki/entities/eric-jang]] | Person | AI researcher (ex-1X VP AI, ex-DeepMind Robotics); rebuilt AlphaGo (~$10K); self-play RL & MCTS; RL info-inefficiency thesis |
 
 ---
 
@@ -105,6 +115,9 @@ Last updated: 2026-05-23 | Pages: 122
 | [[wiki/concepts/non-deterministic-software]] | AI-powered software produces variable outputs for identical inputs; shifts quality ownership from spec-writing to evals; judgment is the remaining human skill |
 | [[wiki/concepts/ai-surveillance]] | AI applied to monitoring physical space at scale (Flock cameras, ShotSpotter); crime-solving vs. mass-surveillance/abuse trade-off; extends to robots and wearables |
 | [[wiki/concepts/llm-no-drives]] | Andreessen's reframe: LLMs "write Netflix scripts", have no self-preservation; rogue behaviour is primed via doomer-seeded latent space — counter to doomer framings |
+| [[wiki/concepts/inference-economics]] | First-principles cost/latency/throughput of serving LLMs: batch size (~1000x lever), roofline, KV cache, MoE-on-rack, PD disaggregation, usage-based pricing |
+| [[wiki/concepts/asic-vs-gpu]] | Trade-offs among GPUs, TPUs/ASICs, FPGAs: systolic arrays, low precision, determinism, purpose-built inference chips, "different AND hard" |
+| [[wiki/concepts/self-play-rl]] | Self-play + MCTS as a policy-improvement operator (AlphaGo); why it beats LLM policy-gradient RL; distillation bits/sample; off-policy/DAgger |
 
 ---
 

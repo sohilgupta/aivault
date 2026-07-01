@@ -36,6 +36,10 @@ Google's latency culture is extreme: sub-teams have millisecond-level budgets. S
 ## Appearances in Sources
 
 - [[wiki/sources/sundar-pichai-google-ai-history]] — primary; history, Search future, speed, diffusion, Waymo, space data centers
+- [[wiki/sources/reiner-pope-training-serving]] — long-held large TPU scale-up domains explain Gemini's pre-training lead; MoE/sparsity choices
+- [[wiki/sources/reiner-pope-chip-design]] — TPU architecture (big systolic MXUs + scratchpad, deterministic latency); Reiner is ex-Google TPU
+- [[wiki/sources/gavin-baker-watts-wafers]] — lost per-token cost leadership via conservative TPU v8 choices; dominated the Pareto frontier ~9 months ago
+- [[wiki/sources/eric-jang-alphago-selfplay]] — DeepMind's AlphaGo/AlphaZero as the subject; Jang is ex-DeepMind Robotics
 
 ## Connections
 

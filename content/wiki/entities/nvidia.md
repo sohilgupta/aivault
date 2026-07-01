@@ -39,6 +39,11 @@ Every major topic in this wiki eventually runs into Nvidia. Token economics (Dyl
 - [[wiki/sources/jensen-huang-nvidia-moat]] — primary; moat thesis, CUDA, China, Groq
 - [[wiki/sources/dylan-patel-compute-bottleneck]] — supply chain role; Huawei threat
 - [[wiki/sources/elon-musk-ai-space]] — Elon wants more chips; Nvidia is primary supplier but he's also diversifying to Samsung
+- [[wiki/sources/reiner-pope-chip-design]] — Tensor Cores/systolic arrays, FP4=3x FP8 (B300), GPU≈many-tiny-TPUs, branch predictor
+- [[wiki/sources/reiner-pope-training-serving]] — Blackwell NVL72 & Rubin scale-up domains (8→72→~500), NVLink vs scale-out, surplus HBM per rack
+- [[wiki/sources/harvard-dropouts-nvidia-challenger]] — Etched's rival framing; ~4000ns Blackwell chip-to-chip latency; "the best chip is built by a company that only builds that chip — Nvidia"
+- [[wiki/sources/gavin-baker-watts-wafers]] — no TSMC contract (handshake); could sell $2-3T of GPUs if TSMC allowed; Nemotron as "commoditize your complement"; fast-follows any chip reaching 1-3% share
+- [[wiki/sources/jane-street-gpus-trading]] — Nvidia products now force ARM support at Jane Street
 
 ## Connections
 
