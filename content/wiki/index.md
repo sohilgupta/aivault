@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-05-23 | Pages: 135
+Last updated: 2026-05-23 | Pages: 142
 
 > This file is maintained by the LLM. Do not edit manually.
 > The LLM reads this first when answering queries to locate relevant pages.
@@ -51,6 +51,8 @@ Last updated: 2026-05-23 | Pages: 135
 | [[wiki/sources/harvard-dropouts-nvidia-challenger]] | Invest Like The Best — Etched (Uberti & Wachen): inference ASIC, low-voltage inference, cluster-scale memory, Sohu, $800M raised, "production is the product", 40-day silicon-to-rack | 2026-05-23 |
 | [[wiki/sources/gavin-baker-watts-wafers]] | Invest Like The Best — Gavin Baker on watts (orbital compute) vs wafers (TSMC as bubble-preventer), Terafab, Pareto frontier, usage-based pricing, bitter lesson & continual-learning risks, "different AND hard" chips | 2026-05-23 |
 | [[wiki/sources/eric-jang-alphago-selfplay]] | Dwarkesh blackboard — Eric Jang rebuilds AlphaGo (~$10K): MCTS, self-play as improvement operator, why MCTS doesn't fit LLMs, RL info-inefficiency, distillation bits/sample, automated research | 2026-05-23 |
+| [[wiki/sources/jonathan-ross-groq]] | Founders/David Senra — Jonathan Ross (TPU inventor, Groq): fast inference makes models smarter (AlphaGo), GPU+LPU pairing, ~$20B NVIDIA deal, Groq bonds, intentional leadership, manufactured discontent | 2026-05-23 |
+| [[wiki/sources/karan-goel-state-space-models]] | AI Engineer World's Fair 2024 — Karan Goel (Cartesia): state space models, retrieval-vs-compression, batch-vs-streaming, quadratic-attention wall for multimodal, real-time on-device voice | 2026-05-23 |
 
 ---
 
@@ -72,8 +74,8 @@ Last updated: 2026-05-23 | Pages: 135
 | [[wiki/entities/google]] | Organisation | Invented Transformer; makes Gemini and TPUs; runs Waymo; exploring data centers in space |
 | [[wiki/entities/andrej-karpathy]] | Person | Independent AI educator; former OpenAI + Tesla; LLMs as ghosts; three coding modes; education philosophy |
 | [[wiki/entities/ilya-sutskever]] | Person | OpenAI co-founder; founder SSI; age of scaling ending; age of research; continual learning; research taste |
-| [[wiki/entities/jensen-huang]] | Person | CEO Nvidia; architectural moat; CUDA; Groq acquisition; premium-latency tokens; China export controls |
-| [[wiki/entities/nvidia]] | Organisation | Dominant GPU/AI accelerator; CUDA ecosystem; Mellanox; Groq; central to all AI compute supply chains |
+| [[wiki/entities/jensen-huang]] | Person | CEO Nvidia; architectural moat; CUDA; ~$20B Groq deal; premium-latency tokens; China export controls |
+| [[wiki/entities/nvidia]] | Organisation | Dominant GPU/AI accelerator; CUDA ecosystem; Mellanox; ~$20B Groq partnership; central to all AI compute supply chains |
 | [[wiki/entities/elon-musk]] | Person | CEO xAI; original OpenAI co-founder; TeraFab; space compute; hardware-first AI strategy |
 | [[wiki/entities/satya-nadella]] | Person | CEO Microsoft; trust-as-moat thesis; AI sovereignty; OpenAI partner; 2027 enterprise inflection |
 | [[wiki/entities/leopold-aschenbrenner]] | Person | Former OpenAI safety; author Situational Awareness; 2027 AGI thesis; intelligence explosion; US-China race |
@@ -89,6 +91,10 @@ Last updated: 2026-05-23 | Pages: 135
 | [[wiki/entities/jane-street]] | Organisation | Quant trading firm; $6B CoreWeave deal; FPGA/GPU/ASIC across many time-horizons; "AGI-complete" trading; heavy ML hiring |
 | [[wiki/entities/etched]] | Organisation | Inference ASIC startup (Sohu chip); Harvard-dropout founders; ~$800M raised; low-voltage inference + cluster-scale memory; "production is the product" |
 | [[wiki/entities/eric-jang]] | Person | AI researcher (ex-1X VP AI, ex-DeepMind Robotics); rebuilt AlphaGo (~$10K); self-play RL & MCTS; RL info-inefficiency thesis |
+| [[wiki/entities/groq]] | Organisation | LPU inference-chip company; Jonathan Ross (TPU inventor); GPU+LPU pairing; ~$20B NVIDIA licensing/partnership; Groq bonds survival story |
+| [[wiki/entities/jonathan-ross]] | Person | Inventor of Google TPU; founder/CEO Groq; now NVIDIA exec; "fast inference makes models smarter"; intentional leadership; manufactured discontent |
+| [[wiki/entities/cartesia]] | Organisation | Real-time multimodal foundation-model company; SSM (non-Transformer) stack; low-latency on-device voice/TTS; from Chris Ré's Stanford lab |
+| [[wiki/entities/karan-goel]] | Person | Founder/CEO Cartesia; co-developer of early state space models (pre-Mamba); compression-vs-retrieval thesis; Stanford PhD (Chris Ré) |
 
 ---
 
@@ -118,6 +124,7 @@ Last updated: 2026-05-23 | Pages: 135
 | [[wiki/concepts/inference-economics]] | First-principles cost/latency/throughput of serving LLMs: batch size (~1000x lever), roofline, KV cache, MoE-on-rack, PD disaggregation, usage-based pricing |
 | [[wiki/concepts/asic-vs-gpu]] | Trade-offs among GPUs, TPUs/ASICs, FPGAs: systolic arrays, low precision, determinism, purpose-built inference chips, "different AND hard" |
 | [[wiki/concepts/self-play-rl]] | Self-play + MCTS as a policy-improvement operator (AlphaGo); why it beats LLM policy-gradient RL; distillation bits/sample; off-policy/DAgger |
+| [[wiki/concepts/state-space-models]] | SSMs: stream tokens into a fixed recurrent state and discard them (linear scaling); compression-vs-retrieval; architecture-side attack on inference cost / multimodal quadratic-attention wall |
 
 ---
 

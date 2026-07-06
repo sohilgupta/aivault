@@ -23,6 +23,8 @@ Key results assembled from sources:
 - **Scale-up domain caps total parameters; compute cost caps active parameters.** MoE expert parallelism creates an all-to-all pattern that fits exactly in one rack; crossing racks hits the ~8x-slower scale-out network. ([[wiki/sources/reiner-pope-training-serving]])
 - **Usage-based pricing** is replacing all-you-can-eat; token quantity ≈ answer quality; frontier is gated behind enterprise/usage plans. ([[wiki/sources/gavin-baker-watts-wafers]])
 - **Disaggregation extends GPU useful life to 10-15 years** (old GPUs for prefill), improving financing. ([[wiki/sources/gavin-baker-watts-wafers]])
+- **GPU+LPU pairing** maps onto the compute-bound (attention → GPU) vs memory-throughput-bound (weight application → LPU) split; the hard/expensive part is generation, not prefill. Latency itself is a capability lever: faster inference → deeper search → smarter answers. ([[wiki/sources/jonathan-ross-groq]])
+- **Architecture can remove the KV-cache cost entirely.** State space models compress context into a fixed recurrent state (linear scaling), sidestepping the quadratic-attention / KV-cache-linear-in-context wall — an architecture-side lever complementing the hardware-side ones above. ([[wiki/sources/karan-goel-state-space-models]], [[wiki/concepts/state-space-models]])
 
 ## Key Sources
 
@@ -31,12 +33,15 @@ Key results assembled from sources:
 - [[wiki/sources/gavin-baker-watts-wafers]] — Pareto frontier, usage-based pricing, GPU life, prefill/decode canvas
 - [[wiki/sources/jane-street-gpus-trading]] — atypical demand profile (latency-critical, low-batch)
 - [[wiki/sources/dylan-patel-token-supply-demand]] — token supply/demand, memory wall
+- [[wiki/sources/jonathan-ross-groq]] — LPU+GPU decoder split; latency as capability; premium-latency inference
+- [[wiki/sources/karan-goel-state-space-models]] — SSMs remove quadratic attention / KV-cache cost (architecture-side)
 
 ## Related Concepts
 
 - [[wiki/concepts/asic-vs-gpu]] — hardware substrate for these economics
 - [[wiki/concepts/scaling-laws]] — training/inference compute balance drives over-training
 - [[wiki/concepts/tokenomics]] — token cost/pricing dynamics
+- [[wiki/concepts/state-space-models]] — architecture-side attack on the same cost/latency problem
 
 ## Open Questions
 

@@ -23,6 +23,7 @@ Key points assembled from sources:
 - **Purpose-built inference ASICs** — Etched argues all chips predate ChatGPT; relaxing false constraints (e.g. freezing-temp EDA corners) + low-voltage inference + cluster-scale memory yields step-change gains. ([[wiki/sources/harvard-dropouts-nvidia-challenger]])
 - **"Different AND hard"** — Gavin Baker: don't build a better GPU; make a *hard* different trade-off (prefill capacity-bound vs decode bandwidth-bound) or Nvidia fast-follows anything reaching 1-3% share. Trainium/Cerebras cited; ~1% share ≈ $100B. ([[wiki/sources/gavin-baker-watts-wafers]])
 - **Existential focus wins** — the best chip is built by a company that only builds that chip (Nvidia); hyperscaler in-house chips have lower flop density because they don't have to take the risk.
+- **LPU (Groq)** — inference ASIC optimized for the memory-throughput-bound weight-application part of the decoder; pairs with GPUs (compute-bound attention) rather than replacing them. Ross (TPU's creator) concedes GPUs now beat TPUs, crediting ecosystem scale. Ended in a ~$20B NVIDIA deal, not head-on competition. ([[wiki/sources/jonathan-ross-groq]])
 
 ## Key Sources
 
@@ -31,11 +32,13 @@ Key points assembled from sources:
 - [[wiki/sources/gavin-baker-watts-wafers]] — "different AND hard," Trainium/Cerebras, iron-triangle framing
 - [[wiki/sources/jane-street-gpus-trading]] — FPGA-for-determinism in HFT
 - [[wiki/sources/jensen-huang-nvidia-moat]] — the incumbent's architectural moat
+- [[wiki/sources/jonathan-ross-groq]] — Groq LPU inference ASIC; GPU+LPU pairing; TPU-creator concedes GPUs now win
 
 ## Related Concepts
 
 - [[wiki/concepts/inference-economics]] — what these chips are optimized to serve
 - [[wiki/concepts/scaling-laws]] — hardware roadmap enables model scaling
+- [[wiki/concepts/state-space-models]] — architecture-side alternative to hardware specialization for cheap inference
 
 ## Open Questions
 
